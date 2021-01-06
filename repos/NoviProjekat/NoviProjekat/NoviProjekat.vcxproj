@@ -78,8 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\Libraries;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\Libraries;$(LibraryPath)</LibraryPath>
     <SourcePath>$(SourcePath)</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -144,8 +144,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\glad.c" />
-    <ClCompile Include="C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp" />
+    <ClCompile Include="C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\glad.c" />
+    <ClCompile Include="C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

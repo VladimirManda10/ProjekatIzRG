@@ -1,58 +1,57 @@
-﻿  glad.c
-  projekat.cpp
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\Include\Shader.h(88,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\Include\Mesh.h(75,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(71,33): warning C4305: 'argument': truncation from 'double' to 'irrklang::ik_f32'
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(352,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(388,40): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+﻿  projekat.cpp
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\Include\Shader.h(88,26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\Include\Mesh.h(75,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(71,33): warning C4305: 'argument': truncation from 'double' to 'irrklang::ik_f32'
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(352,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(388,40): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(389,40): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(389,40): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(390,40): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(390,40): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(412,58): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(412,58): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ]
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(414,57): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(414,57): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ]
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(436,35): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(436,35): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(437,35): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(437,35): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(438,35): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(438,35): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(442,67): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(104,12): warning C4101: 'perspectiveMatrix': unreferenced local variable
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(105,9): warning C4101: 'uniformMatrixLoaction': unreferenced local variable
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(592,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(593,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(596,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(597,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(598,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(599,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\NoviProjekat\projekat.cpp(604,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  NoviProjekat.vcxproj -> C:\Users\vladi\OneDrive\Radna površina\ProjekatIzRacunarskeGrafike\repos\NoviProjekat\x64\Debug\NoviProjekat.exe
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(442,67): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(104,12): warning C4101: 'perspectiveMatrix': unreferenced local variable
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(105,9): warning C4101: 'uniformMatrixLoaction': unreferenced local variable
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(592,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(593,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(596,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(597,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(598,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(599,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\NoviProjekat\projekat.cpp(604,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  NoviProjekat.vcxproj -> C:\Users\vladi\OneDrive\ProjekatIzRG\repos\NoviProjekat\x64\Debug\NoviProjekat.exe
