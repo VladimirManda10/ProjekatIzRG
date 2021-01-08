@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <glad/glad.h>/ za rad sa OpenGL f-jama
+#include <glad/glad.h>// za rad sa OpenGL f-jama
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp> //gl mathematics
 #include <glm/gtc/matrix_transform.hpp>
