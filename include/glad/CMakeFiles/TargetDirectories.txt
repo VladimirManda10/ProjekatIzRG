@@ -1,0 +1,4 @@
+/home/windows10/Desktop/ProjekatIzRG/glad/CMakeFiles/rebuild_cache.dir
+/home/windows10/Desktop/ProjekatIzRG/glad/CMakeFiles/glad.dir
+/home/windows10/Desktop/ProjekatIzRG/glad/CMakeFiles/edit_cache.dir
+/home/windows10/Desktop/ProjekatIzRG/glad/CMakeFiles/glad-generate-files.dir
