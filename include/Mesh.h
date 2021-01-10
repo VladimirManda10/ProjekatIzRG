@@ -2,7 +2,7 @@
 #define MESH_H
 
 #include <glad/glad.h>
-#include <glm/glm.hpp>
+#include <glm/glm/glm.hpp>
 #include <string>
 #include <vector>
 #include <Shader.h>

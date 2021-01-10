@@ -18,6 +18,7 @@ list(APPEND CMAKE_CXX_FLAGS "-Wall -Wextra -Wno-unused-variable -Wno-unused-para
 file(GLOB SOURCES "src/*.cpp" "src/*.c" src/main.cpp)
 file(GLOB HEADERS "include/*.h" "include/*.hpp")
 
+
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 find_package(ASSIMP REQUIRED)
@@ -33,7 +34,7 @@ set_source_files_properties(libs/stb_image.cpp include/stb_image.h
         COMPILE_FLAGS
         "-Wno-shift-negative-value -Wno-implicit-fallthrough")
 
-set(LIBS glfw glad OpenGL::GL X11 Xrandr Xinerama Xi Xxf86vm Xcursor dl pthread freetype ${ASSIMP_LIBRARIES} STB_IMAGE imgui)
+set(LIBS  glfw glad OpenGL::GL X11 Xrandr Xinerama Xi Xxf86vm Xcursor dl pthread freetype ${ASSIMP_LIBRARIES} STB_IMAGE imgui)
 
 
 configure_file(configuration/root_directory.h.in configuration/root_directory.h)
@@ -48,8 +49,11 @@ target_link_libraries(${PROJECT_NAME} ${LIBS})
 
 # set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/${PROJECT_NAME}")
 set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}")
-file(GLOB SHADERS "shaders/*.vs"
-        "shaders/*.fs")
+file(GLOB SHADERS "shaders/*.vert"
+        "shaders/*.frag")
+
+
+
 foreach(SHADER ${SHADERS})
     # file(COPY ${SHADER} DESTINATION ${CMAKE_SOURCE_DIR}/bin/${PROJECT_NAME}/shaders)
     watch(${SHADER})

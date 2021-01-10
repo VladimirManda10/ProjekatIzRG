@@ -4,15 +4,14 @@
 #include <string>
 #include <glad/glad.h>// za rad sa OpenGL f-jama
 #include <GLFW/glfw3.h>
-#include <glm/glm.hpp> //gl mathematics
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
+#include <glm/glm/glm.hpp>
+#include <glm/glm/gtc/matrix_transform.hpp>
 #include <stb_image.h>
 #include <Kamera.h>
 #include <Shader.h>
 #include <Model.h>
-#include <IrrKlang/irrKlang.h>//za audio
-using namespace irrklang;
+//#include <IrrKlang/irrKlang.h>//za audio
+
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void process_input(GLFWwindow* window);
@@ -25,7 +24,7 @@ void lightCube(Shader& lightCubeShader, Shader& stencilShader, unsigned int ligh
 	float scale1,float scale2,glm::vec3 color1,glm::vec3 color2,
 	glm::mat4 model, glm::mat4 view, glm::mat4 projection, double current_time);
 
-ISoundEngine* SoundEngine = createIrrKlangDevice();
+//irrklang::ISoundEngine* SoundEngine = irrklang::createIrrKlangDevice();
 
 
 glm::vec3 bezier(float t, glm::vec3 p0, glm::vec3 p1, glm::vec3 p2);
@@ -67,8 +66,8 @@ int main() {
 	}
 
 	glfwMakeContextCurrent(window);
-	SoundEngine->play2D("DreamItPossible.mp3", true);
-	SoundEngine->setSoundVolume(0.1);
+//	SoundEngine->play2D("DreamItPossible.mp3", true);
+//	SoundEngine->setSoundVolume(0.1);
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 	glfwSetCursorPosCallback(window, mouse_callback);
 	glfwSetScrollCallback(window, scroll_callback);
@@ -543,10 +542,10 @@ void process_input(GLFWwindow* window) {
 		camera.ProcessKeyboard(BACKWARD, deltaTime);
 	if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
 		camera.ProcessKeyboard(RIGHT, deltaTime);
-	if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
-		SoundEngine->setSoundVolume(SoundEngine->getSoundVolume() + 0.2f);
-	if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
-		SoundEngine->setSoundVolume(SoundEngine->getSoundVolume() - 0.2f);
+//	if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS)
+//		SoundEngine->setSoundVolume(SoundEngine->getSoundVolume() + 0.2f);
+//	if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS)
+//		SoundEngine->setSoundVolume(SoundEngine->getSoundVolume() - 0.2f);
 	
 }
 unsigned int loadTexture(char const* path)
