@@ -91,15 +91,15 @@ int main() {
 	Shader instancingShader("instancing.frag", "instancing.vert");
 	init_sline();
 
-	Shader ourShader("plane.frag", "plane.vert");
-	Shader houseShader("house.frag", "house.vert");
-	Model ourModel("Cartoon_house_low_poly_OBJ.obj");
-	Shader lampShader("lamp.frag", "lamp.vert");
-	Model lampModel("rv_lamp post 1.obj");
+	Shader ourShader("resources/shaders/plane.fs", "resources/shaders/plane.vs");
+	Shader houseShader("resources/shaders/house.fs", "resources/shaders/house.vs");
+	Model ourModel("resources/objects/Cartoon_house_low_poly_OBJ.obj");
+	Shader lampShader("resources/shaders/lamp.fs", "resources/shaders/lamp.vs");
+	Model lampModel("resources/objects/rv_lamp post 1.obj");
 
-	Shader lightingShader("lighting.frag", "lighting.vert");
-	Shader lightCubeShader("lightCube.frag", "lightCube.vert");
-	Shader stencilShader("stencil.frag", "stencil.vert");
+	Shader lightingShader("resources/shaders/lighting.fs", "resources/shaders/lighting.vs");
+	Shader lightCubeShader("resources/shaders/lightCube.fs", "resources/shaders/lightCube.vs");
+	Shader stencilShader("resources/shaders/stencil.fs", "resources/shaders/stencil.vs");
 	glm::mat4 perspectiveMatrix;
 	GLuint uniformMatrixLoaction;
 	

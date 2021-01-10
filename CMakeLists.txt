@@ -49,8 +49,8 @@ target_link_libraries(${PROJECT_NAME} ${LIBS})
 
 # set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/${PROJECT_NAME}")
 set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}")
-file(GLOB SHADERS "shaders/*.vert"
-        "shaders/*.frag")
+file(GLOB SHADERS "shaders/*.vs"
+        "shaders/*.fs")
 
 
 
