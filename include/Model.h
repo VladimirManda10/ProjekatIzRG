@@ -5,9 +5,12 @@
 #include <string>
 #include <Shader.h>
 #include <Mesh.h>
-#include <LearnOpenGL-master/includes/assimp/Importer.hpp>
-#include <LearnOpenGL-master/includes/assimp/scene.h>
-#include <LearnOpenGL-master/includes/assimp/postprocess.h>
+#include <assimp/Importer.hpp>
+//#include <LearnOpenGL-master/includes/assimp/Importer.hpp>
+#include <assimp/scene.h>
+//#include <LearnOpenGL-master/includes/assimp/scene.h>
+#include <assimp/postprocess.h>
+//#include <LearnOpenGL-master/includes/assimp/postprocess.h>
 //#include <unordered_map>
 
 unsigned int TextureFromFile(const char* filename, std::string directory);

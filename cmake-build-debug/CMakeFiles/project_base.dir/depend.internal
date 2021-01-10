@@ -4,35 +4,6 @@
 CMakeFiles/project_base.dir/src/main.cpp.o
  ../include/GLFW/glfw3.h
  ../include/Kamera.h
- ../include/LearnOpenGL-master/includes/assimp/Compiler/poppack1.h
- ../include/LearnOpenGL-master/includes/assimp/Compiler/pstdint.h
- ../include/LearnOpenGL-master/includes/assimp/Compiler/pushpack1.h
- ../include/LearnOpenGL-master/includes/assimp/Importer.hpp
- ../include/LearnOpenGL-master/includes/assimp/anim.h
- ../include/LearnOpenGL-master/includes/assimp/camera.h
- ../include/LearnOpenGL-master/includes/assimp/color4.h
- ../include/LearnOpenGL-master/includes/assimp/color4.inl
- ../include/LearnOpenGL-master/includes/assimp/config.h
- ../include/LearnOpenGL-master/includes/assimp/defs.h
- ../include/LearnOpenGL-master/includes/assimp/light.h
- ../include/LearnOpenGL-master/includes/assimp/material.h
- ../include/LearnOpenGL-master/includes/assimp/material.inl
- ../include/LearnOpenGL-master/includes/assimp/matrix3x3.h
- ../include/LearnOpenGL-master/includes/assimp/matrix3x3.inl
- ../include/LearnOpenGL-master/includes/assimp/matrix4x4.h
- ../include/LearnOpenGL-master/includes/assimp/matrix4x4.inl
- ../include/LearnOpenGL-master/includes/assimp/mesh.h
- ../include/LearnOpenGL-master/includes/assimp/metadata.h
- ../include/LearnOpenGL-master/includes/assimp/postprocess.h
- ../include/LearnOpenGL-master/includes/assimp/quaternion.h
- ../include/LearnOpenGL-master/includes/assimp/quaternion.inl
- ../include/LearnOpenGL-master/includes/assimp/scene.h
- ../include/LearnOpenGL-master/includes/assimp/texture.h
- ../include/LearnOpenGL-master/includes/assimp/types.h
- ../include/LearnOpenGL-master/includes/assimp/vector2.h
- ../include/LearnOpenGL-master/includes/assimp/vector2.inl
- ../include/LearnOpenGL-master/includes/assimp/vector3.h
- ../include/LearnOpenGL-master/includes/assimp/vector3.inl
  ../include/Mesh.h
  ../include/Model.h
  ../include/Shader.h
