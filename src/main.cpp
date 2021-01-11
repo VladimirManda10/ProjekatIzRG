@@ -10,7 +10,7 @@
 #include <Kamera.h>
 #include <Shader.h>
 #include <Model.h>
-//#include <IrrKlang/irrKlang.h>//za audio
+#include <IrrKlang/irrKlang.h>//za audio
 
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
@@ -24,7 +24,7 @@ void lightCube(Shader& lightCubeShader, Shader& stencilShader, unsigned int ligh
 	float scale1,float scale2,glm::vec3 color1,glm::vec3 color2,
 	glm::mat4 model, glm::mat4 view, glm::mat4 projection, double current_time);
 
-//irrklang::ISoundEngine* SoundEngine = irrklang::createIrrKlangDevice();
+irrklang::ISoundEngine* SoundEngine = irrklang::createIrrKlangDevice();
 
 
 glm::vec3 bezier(float t, glm::vec3 p0, glm::vec3 p1, glm::vec3 p2);
@@ -66,8 +66,8 @@ int main() {
 	}
 
 	glfwMakeContextCurrent(window);
-//	SoundEngine->play2D("DreamItPossible.mp3", true);
-//	SoundEngine->setSoundVolume(0.1);
+	SoundEngine->play2D("DELACEY - Dream It Possible (Official Audio) (320 kbps).mp3", true);
+	SoundEngine->setSoundVolume(0.1);
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 	glfwSetCursorPosCallback(window, mouse_callback);
 	glfwSetScrollCallback(window, scroll_callback);
@@ -88,7 +88,7 @@ int main() {
 	glStencilFunc(GL_NOTEQUAL, 1, 0xFF);
 	glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);
 
-	Shader instancingShader("instancing.frag", "instancing.vert");
+	Shader instancingShader("instancing.fs", "instancing.vs");
 	init_sline();
 
 	Shader ourShader("resources/shaders/plane.fs", "resources/shaders/plane.vs");
