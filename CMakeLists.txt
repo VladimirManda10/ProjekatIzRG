@@ -18,6 +18,10 @@ list(APPEND CMAKE_CXX_FLAGS "-Wall -Wextra -Wno-unused-variable -Wno-unused-para
 file(GLOB SOURCES "src/*.cpp" "src/*.c" src/main.cpp)
 file(GLOB HEADERS "include/*.h" "include/*.hpp")
 
+FIND_LIBRARY(IRRKLANG_LIBRARY
+    NAMES libIrrKlang.so
+    PATHS "${CMAKE_SOURCE_DIR}/libs/irrklang")
+
 
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
@@ -29,6 +33,7 @@ add_subdirectory(libs/imgui)
 add_definitions(${OPENGL_DEFINITIONS})
 
 add_library(STB_IMAGE libs/stb_image.cpp)
+
 set_source_files_properties(libs/stb_image.cpp include/stb_image.h
         PROPERTIES
         COMPILE_FLAGS
@@ -45,10 +50,8 @@ include_directories(include/)
 add_executable(${PROJECT_NAME}
         ${SOURCES})
 
-target_link_libraries(${PROJECT_NAME} ${LIBS})
-
-# set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/${PROJECT_NAME}")
-set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}")
+target_link_libraries(${PROJECT_NAME} ${LIBS} ${IRRKLANG_LIBRARY})
+set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR} ")
 file(GLOB SHADERS "shaders/*.vs"
         "shaders/*.fs")
 
