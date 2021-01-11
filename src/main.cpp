@@ -88,7 +88,7 @@ int main() {
 	glStencilFunc(GL_NOTEQUAL, 1, 0xFF);
 	glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);
 
-	Shader instancingShader("instancing.fs", "instancing.vs");
+	Shader instancingShader("resources/shaders/instancing.fs", "resources/shaders/instancing.vs");
 	init_sline();
 
 	Shader ourShader("resources/shaders/plane.fs", "resources/shaders/plane.vs");
@@ -337,9 +337,9 @@ int main() {
 	glBindVertexArray(0);
 
 
-	unsigned int planeTexture = loadTexture("grass.jpg");
-	unsigned int diffuseMap = loadTexture("container2.png");
-	unsigned int specularMap = loadTexture("container2_specular.png");
+	unsigned int planeTexture = loadTexture("resources/textures/grass.jpg");
+	unsigned int diffuseMap = loadTexture("resources/textures/container2.png");
+	unsigned int specularMap = loadTexture("resources/textures/container2_specular.png");
 	ourShader.use();
 	ourShader.setUniform1i("plane", 0);
 

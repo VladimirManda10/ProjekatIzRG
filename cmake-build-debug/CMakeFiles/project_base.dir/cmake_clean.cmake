@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../project_base"
-  "../project_base.pdb"
+  "/home/windows10/Desktop/ProjekatIzRG /project_base"
+  "/home/windows10/Desktop/ProjekatIzRG /project_base.pdb"
   "CMakeFiles/project_base.dir/src/main.cpp.o"
 )
 

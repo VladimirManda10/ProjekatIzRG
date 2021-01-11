@@ -3,6 +3,27 @@
 
 CMakeFiles/project_base.dir/src/main.cpp.o
  ../include/GLFW/glfw3.h
+ ../include/IrrKlang/ik_ESoundEngineOptions.h
+ ../include/IrrKlang/ik_ESoundOutputDrivers.h
+ ../include/IrrKlang/ik_EStreamModes.h
+ ../include/IrrKlang/ik_IAudioRecorder.h
+ ../include/IrrKlang/ik_IAudioStream.h
+ ../include/IrrKlang/ik_IAudioStreamLoader.h
+ ../include/IrrKlang/ik_IFileFactory.h
+ ../include/IrrKlang/ik_IFileReader.h
+ ../include/IrrKlang/ik_IRefCounted.h
+ ../include/IrrKlang/ik_ISound.h
+ ../include/IrrKlang/ik_ISoundDeviceList.h
+ ../include/IrrKlang/ik_ISoundEffectControl.h
+ ../include/IrrKlang/ik_ISoundEngine.h
+ ../include/IrrKlang/ik_ISoundMixedOutputReceiver.h
+ ../include/IrrKlang/ik_ISoundSource.h
+ ../include/IrrKlang/ik_ISoundStopEventReceiver.h
+ ../include/IrrKlang/ik_IVirtualRefCounted.h
+ ../include/IrrKlang/ik_SAudioStreamFormat.h
+ ../include/IrrKlang/ik_irrKlangTypes.h
+ ../include/IrrKlang/ik_vec3d.h
+ ../include/IrrKlang/irrKlang.h
  ../include/Kamera.h
  ../include/Mesh.h
  ../include/Model.h

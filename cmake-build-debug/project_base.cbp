@@ -28,7 +28,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="project_base">
-				<Option output="/home/windows10/Desktop/ProjekatIzRG/project_base" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/windows10/Desktop/ProjekatIzRG /project_base" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/windows10/Desktop/ProjekatIzRG/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -55,7 +55,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="project_base/fast">
-				<Option output="/home/windows10/Desktop/ProjekatIzRG/project_base" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/windows10/Desktop/ProjekatIzRG /project_base" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/windows10/Desktop/ProjekatIzRG/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
